@@ -1,7 +1,7 @@
 body {
     background-color: #000;
     color: #fff;
-    font-family: "Trebuchet MS", Helvetica, sans-serif; /* 'Muli', sans-serif; */
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 17px;
     
 }
@@ -133,6 +133,9 @@ iframe {
     }
     .header {
         margin: 16px 0 0px 0;
+    }
+    .header img {
+        max-width: 300px;
     }
     .navbar a:link, .navbar a:visited {
         padding: 7px 8px;
