@@ -28,7 +28,7 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 }
 
 .miniheader {
-    background-color: #1F1F1F;
+    background-color: #000;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -42,7 +42,7 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 }
 
 .header {
-    margin: 32px 0 16px 0;
+    margin: 32px 0 10px 0;
     text-align: center;
 }
 
@@ -123,6 +123,12 @@ p {
 iframe {
     /*border: 1px solid #333; */
     border-radius: 2px;
+}
+
+.twitter {
+    border-radius: 20px;
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
