@@ -3,11 +3,10 @@ body {
     color: #fff;
     font-family: "Verdana", Helvetica, sans-serif;
     font-size: 20px;
-    
 }
 
 a:link, a:visited {
-    color: #ffc63d;
+    color: #ffb000;
     text-decoration: none;
 }
 
@@ -105,10 +104,6 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
     color: #777;
 }
 
-.cite a:link, .cite a:visited {
-    color: #555;
-}
-
 footer {
     text-align: center;
     margin: 20px 0;
@@ -135,24 +130,24 @@ iframe {
 }
 
 .quotes {
-    font-size: 20px;
+    font-size: 19px;
     color: #ddd;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
-        font-size: 14px;
+        font-size: 13px;
     }
     .quotes {
         font-size: 16px;
     }
     .content {
-        width: 280px;
+        width: 245px;
         margin: 0 auto;
     }
     iframe {
-        max-width: 280px;
-        max-height: 210px;
+        max-width: 240px;
+        max-height: 180px;
     }
     .header {
         margin: 32px 0 10px 0;
